@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 cap = cv2.VideoCapture(0)
 
-f_p = dict( maxCorners = 3,
+f_p = dict( maxCorners = 1,
             qualityLevel = 0.3,
             minDistance = 7,
             useHarrisDetector=True,
